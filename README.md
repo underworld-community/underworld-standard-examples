@@ -1,4 +1,5 @@
-<table><tr><td><img src='./images/05_raytay_init.png'></td><td><img src='./images/PureShear.png'></td></tr></table>
+<table><tr><td><img src='./images/05_raytay.png'></td><td><img src='./images/PureShear.png'></td></tr>
+  <tr><td><img src="./images/05_matvel.png"></td><td><img src="images/err_fig_vel.png"></td></tr></table>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/underworld-standard-examples/master)
 
