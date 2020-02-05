@@ -1,6 +1,6 @@
-<table><tr><td><img src='./raytay_init.png'></td><td><img src='./raytay.png'></td></tr></table>
+<table><tr><td><img src='./images/05_raytay_init.png'></td><td><img src='./images/PureShear.png'></td></tr></table>
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/template-project/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/underworld-standard-examples/master)
 
 About
 -----
@@ -27,29 +27,35 @@ Files
 
 File | Purpose
 --- | ---
-`RayTay.ipynb` | A simple Rayleigh Taylor notebook. 
-`VrmsCaseA.txt`| Expected results data file. 
-`raytay.png` | Image file.
-`raytay_init.png` | Initial image file.
+`01_Steady_State_Heat.ipynb` | A simple steady state heat (Laplacian equation) solve.
+`02_Convection_Example.ipynb` | An example of thermomechanical convection.
+`03_BlankenbachBenchmark.ipynb` | A thermochemical convection benchmark model.
+`04_StokesSinker.ipynb` | A 2D stokes sinker.
+`05_Rayleigh_Taylor.ipynb` | The Rayleigh Taylor Benchmark model.
+`06_SlabSubduction.ipynb` | A 2D Slab subduction model, mechanical only.
+`07_ShearBandsPureShear.ipynb` | Model shear bands under pure shear.
+`10_Analytic Solutions.ipynb` | A series of analytical tests for Stokes flow problems, used to test error convergence rates. 
+`09_Groundwater_Flow.ipynb` | A 2D Darcy flow Benchmark model, tested against an analytic solution.
+`08_Uplift_TractionBCs.ipynb` | An example of a traction boundary condition to drive topography.
+`11_ViscoelasticityInSimpleShear.ipynb` | An example of Viscoelastic Shear in 2D, compared against an analytic solution.
+`images` | Directory of images.
+`RTI_GrowthRate_Supp` | Information on the full RayTay model run.
+`input` | Input information for various models.
 
 Tests
 -----
-**_Please specify how your repository is tested for correctness._**
-**_Tests are not required for `laboratory` tagged repositories, although still encouraged._**
-**_All other repositories must include a test._**
-
-The attained peak VRMs time is tested against an expected value. If it is outside a given tolerance, an exception is raised.
+All models are tested against some result. See each model for specific details.
 
 Parallel Safe
 -------------
 **_Please specify if your model will operate in parallel, and any caveats._**
 
-Yes, test result should be obtained in both serial and parallel operation.
+Yes all models are parallel safe. Errors can occur if resolution is too low for parallel decomposition.
 
 Check-list
 ----------
-- [ ] (Required) Have you replaced the above sections with your own content? 
-- [ ] (Required) Have you updated the Dockerfile to point to your required UW/UWG version? 
-- [ ] (Required) Have you included a working Binder badge/link so people can easily run your model?
+- [x] (Required) Have you replaced the above sections with your own content? 
+- [x] (Required) Have you updated the Dockerfile to point to your required UW/UWG version? 
+- [x] (Required) Have you included a working Binder badge/link so people can easily run your model?
                  You probably only need to replace `template-project` with your repo name. 
-- [ ] (Optional) Have you included an appropriate image for your model? 
+- [x] (Optional) Have you included an appropriate image for your model? 
