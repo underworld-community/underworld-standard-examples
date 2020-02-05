@@ -3,6 +3,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/underworld-community/underworld-standard-examples/master)
 
+
 About
 -----
 **_Please replace the following with information about your own repository._**
@@ -35,9 +36,9 @@ File | Purpose
 `05_Rayleigh_Taylor.ipynb` | The Rayleigh Taylor Benchmark model.
 `06_SlabSubduction.ipynb` | A 2D Slab subduction model, mechanical only.
 `07_ShearBandsPureShear.ipynb` | Model shear bands under pure shear.
-`10_Analytic Solutions.ipynb` | A series of analytical tests for Stokes flow problems, used to test error convergence rates. 
-`09_Groundwater_Flow.ipynb` | A 2D Darcy flow Benchmark model, tested against an analytic solution.
 `08_Uplift_TractionBCs.ipynb` | An example of a traction boundary condition to drive topography.
+`09_Groundwater_Flow.ipynb` | A 2D Darcy flow Benchmark model, tested against an analytic solution.
+`10_Analytic Solutions.ipynb` | A series of analytical tests for Stokes flow problems, used to test error convergence rates.
 `11_ViscoelasticityInSimpleShear.ipynb` | An example of Viscoelastic Shear in 2D, compared against an analytic solution.
 `images` | Directory of images.
 `RTI_GrowthRate_Supp` | Information on the full RayTay model run.
